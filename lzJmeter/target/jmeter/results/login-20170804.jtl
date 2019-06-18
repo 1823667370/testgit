@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="31" it="0" lt="0" ts="1501829288741" s="true" lb="登录URI/时间戳加密" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="0" ng="1" na="1"/>
+<httpSample t="3183" it="0" lt="3182" ts="1501829288902" s="true" lb="登录" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="1030" ng="1" na="1"/>
+<sample t="3354" it="0" lt="3182" ts="1501829288740" s="true" lb="login transaction" rc="200" rm="Number of samples in transaction : 2, number of failing samples : 0" tn="联掌门户APP 1-1" dt="" by="1030" ng="1" na="1"/>
+<sample t="12" it="0" lt="0" ts="1501829292094" s="true" lb="获取sign" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="0" ng="1" na="1"/>
+<httpSample t="318" it="0" lt="318" ts="1501829292107" s="true" lb="获取我的小区列表" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="3442" ng="1" na="1"/>
+<sample t="366" it="0" lt="0" ts="1501829292426" s="true" lb="获取其他小区id串" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="0" ng="1" na="1"/>
+<httpSample t="201" it="0" lt="201" ts="1501829292793" s="true" lb="获取小区首页广告" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="598" ng="1" na="1"/>
+<httpSample t="282" it="0" lt="281" ts="1501829292995" s="true" lb="获取第三方服务类别" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="2050" ng="1" na="1"/>
+<httpSample t="360" it="0" lt="359" ts="1501829293278" s="true" lb="获取首页海报" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="206" ng="1" na="1"/>
+<httpSample t="243" it="0" lt="224" ts="1501829293639" s="true" lb="获取首页精品推荐" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="206" ng="1" na="1"/>
+<httpSample t="204" it="0" lt="186" ts="1501829293883" s="true" lb="获取小区其他广告(启动页、呼叫弹屏)" rc="200" rm="OK" tn="联掌门户APP 1-1" dt="text" by="206" ng="1" na="1"/>
+<sample t="1986" it="7" lt="1569" ts="1501829292094" s="true" lb="load transaction" rc="200" rm="Number of samples in transaction : 8, number of failing samples : 0" tn="联掌门户APP 1-1" dt="" by="6708" ng="1" na="1"/>
+
+</testResults>

@@ -1,0 +1,31 @@
+{
+  "performanceData":
+  [
+    {
+      "min": 12,
+      "max": 3354,
+      "quantile90": 1986,
+      "average": 878,
+      "total": 12,
+      "statusCodes":{
+                      "200": 12
+                    },
+      "uriByStatusCode":{
+                          "200": [
+                                  "获取sign",
+                                  "获取首页精品推荐",
+                                  "登录URI/时间戳加密",
+                                  "获取我的小区列表",
+                                  "登录",
+                                  "获取其他小区id串",
+                                  "获取小区首页广告",
+                                  "获取第三方服务类别",
+                                  "获取小区其他广告(启动页、呼叫弹屏)",
+                                  "login transaction",
+                                  "获取首页海报",
+                                  "load transaction"
+                                 ]
+                        }
+    }
+  ]
+}

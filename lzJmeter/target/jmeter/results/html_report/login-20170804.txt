@@ -1,0 +1,31 @@
+Group: 联掌门户APP
+  time: 20170804T144808+0800 - 20170804T144812+0800
+  total duration:       5
+  requests:             12
+  requests per second:  2
+  response duration (ms)
+    min:                12
+    average:            878
+    max:                3354
+    standard deviation: 1178
+    quantiles (ms)
+         10%       12
+         20%       31
+         30%      201
+         40%      204
+         50%      282
+         60%      318
+         70%      360
+         80%      366
+         90%     1986
+         99%     3183
+       99.9%     3183
+      100.0%     3354 (max. value)
+  response size (bytes)
+    total:              15476
+    min:                0
+    average:            1289
+    max:                6708
+    standard deviation: 1908
+  response status codes
+    200:                  12 (100%)
