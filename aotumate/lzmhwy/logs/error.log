@@ -1,2 +1,0 @@
-[11:20:49:703] [ERROR] - com.lz.libarary.utils.SeleniumEventListener.beforeFindBy(SeleniumEventListener.java:75) - beforeFindBy监听15秒 By.linkText: 删除不可见
-[15:15:04:058] [ERROR] - com.lz.libarary.utils.SeleniumEventListener.beforeFindBy(SeleniumEventListener.java:75) - beforeFindBy监听15秒 By.linkText: 住户管理不可见
