@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CommunityEnd"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="149.356">
+  <properties />
+  
+  
+            <testcase name="systemLogin" time="18.061" classname="testng.CommunityController" />
+                <testcase name="deleteAction" time="131.295" classname="testng.CommunityController" />
+      
+</testsuite>

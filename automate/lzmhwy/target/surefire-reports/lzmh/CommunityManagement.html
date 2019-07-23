@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  CommunityManagement</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CommunityManagement</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 12 15:08:28 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>238 seconds (238496 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.CommunityController.communityAction()'><b>communityAction</b><br>Test class: testng.CommunityController<br>Test method: community for lzmh system<br>Parameters: songer.xing, 110000, 110100, 110101, xss街道, 116.406655, 39.918982, 7777, 3, 北京市-北京市-东城区, songer.xing, xss地产, xss一区, xss楼1, 1单元, 0101, 13110923309, songer物业, 北京分公司<br/>
+<a href="#Output-937226973" onClick='toggleBox("Output-937226973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-937226973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-937226973">
+添加小区pass!并查找成功!<br/>
+核对小区信息pass!<br/>
+添加楼宇pass!<br/>
+添加户主pass!<br/>
+</div>
+</td>
+<td></td>
+<td>132</td>
+<td>testng.CommunityController@1c3a0d86</td></tr>
+<tr>
+<td title='testng.CommunityController.equipmentAction()'><b>equipmentAction</b><br>Test class: testng.CommunityController<br>Test method: login for lzmh system<br>Parameters: xss自动化测试机, 0601018056544848806570801651660e, 110000, 110100, 110101, songer.xing, xss一区, xss楼1, xss门口, 116.406655, 39.918982, 围墙<br/>
+<a href="#Output-1220629169" onClick='toggleBox("Output-1220629169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1220629169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1220629169">
+新增设备pass!并查找成功!<br/>
+核对设备信息pass!<br/>
+查看pass!<br/>
+</div>
+</td>
+<td></td>
+<td>86</td>
+<td>testng.CommunityController@1c3a0d86</td></tr>
+<tr>
+<td title='testng.CommunityController.systemLogin()'><b>systemLogin</b><br>Test class: testng.CommunityController<br>Test method: login for lzmh system<br>Parameters: songsong, 123456, 1111<br/>
+<a href="#Output-2099981045" onClick='toggleBox("Output-2099981045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2099981045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2099981045">
+登录社区资源管理平台pass!<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testng.CommunityController@1c3a0d86</td></tr>
+</table><p>
+</body>
+</html>

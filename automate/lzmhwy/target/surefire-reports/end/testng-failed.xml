@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [end]">
+  <parameter name="passwordValue" value="11"/>
+  <parameter name="keywordsCommunityValue" value="songer.xing"/>
+  <parameter name="loginNameValue" value="songsong"/>
+  <parameter name="validateCodeValue" value="1111"/>
+  <parameter name="equipmentNameValue" value="xss自动化测试机"/>
+  <parameter name="equipmentSerialValue" value="0601018056544848806570801651660e"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="CommunityEnd(failed)">
+    <parameter name="keywordsCommunityValue" value="songer.xing"/>
+    <parameter name="equipmentNameValue" value="xss自动化测试机"/>
+    <parameter name="equipmentSerialValue" value="0601018056544848806570801651660e"/>
+    <classes>
+      <class name="testng.CommunityController">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteAction" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testng.CommunityController -->
+    </classes>
+  </test> <!-- CommunityEnd(failed) -->
+</suite> <!-- Failed suite [end] -->

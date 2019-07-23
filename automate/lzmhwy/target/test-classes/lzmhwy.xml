@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="lzmhwy" parallel="false">
+	<parameter name="loginNameValue" value="songwy" />
+	<parameter name="passwordValue" value="11" />
+	<parameter name="validateCodeValue" value="1111" />
+	<test name="wyManagement" preserve-order="true">
+		<parameter name="communityNameValue" value="songer.xing" />
+		<parameter name="propertyNameValue" value="songer物业" />
+		<parameter name="keywordsCommunityValue" value="songer.xing" />
+		<parameter name="province" value="110000" />
+		<parameter name="city" value="110100" />
+		<parameter name="region" value="110101" />
+		<parameter name="communityAddrCheck" value="北京市-北京市-东城区" />
+		<parameter name="residentCity" value="北京市" />
+		<parameter name="wyPartitionValue" value="xss二区" />
+		<parameter name="building1Value" value="xss楼1" />
+		<parameter name="unitList1Value" value="1单元" />
+		<parameter name="floorStartValue" value="1" />
+		<parameter name="floorEndValue" value="1" />
+		<parameter name="roomStartValue" value="1" />
+		<parameter name="roomNumValue" value="1" />
+		<parameter name="roomValue" value="0101" />
+		<parameter name="phoneValue" value="13110923309" />
+		<parameter name="residentPhoneValue" value="13110923300" />
+		<parameter name="appUserNameValue" value="xss1" />
+		<parameter name="userBirthdayValue" value="2016-06-30" />
+		<parameter name="buildingPartitionValue" value="xss一区" />
+		<parameter name="cycleTypeValue" value="2016-07-01~2018-07-01" />
+		<parameter name="timeTypeValue" value="08:00:00-18:00:00" />
+		<parameter name="securityerPhoneValue" value="13110923309" />
+		<parameter name="securityerKeyValue" value="0" />
+		<parameter name="securityerNameValue" value="xss" />
+		<parameter name="cardTypeNameValue" value="xss自动化卡类型" />
+		<parameter name="cardNoValue" value="123321" />
+		<parameter name="cardContactValue" value="songer.xing" />
+		<parameter name="cardHouseNoValue" value="456456" />
+		<parameter name="cardBalackNoValue" value="7788116" />
+		<parameter name="expireCardNoValue" value="50712" />
+		<parameter name="dateValue" value="2018-07-01" />
+		<parameter name="expireDateValue" value="2016-07-05" />
+		<parameter name="cardEngineerNoValue" value="789789" />
+		<parameter name="cardEngineerNameValue" value="songer" />
+		<parameter name="cardEngineerPhone" value="13110923309" />
+		<parameter name="noticeTitleValue" value="xss自动化测试" />
+		<parameter name="cardContactValue" value="songer.xing" />
+		<parameter name="propertyFeeValue" value="1.0" />
+		<parameter name="propertyFeeEditValue" value="0.01" />
+		<parameter name="propertyFeeNote" value="xss物业费" />
+		<parameter name="communityCityValue" value="北京市" />
+		<parameter name="propertyFeeMonth" value="201607" />
+		<parameter name="equipmentNameValue" value="xss自动化测试机" />
+		<parameter name="equipmentType" value="单元机" />
+		<parameter name="installPositionValue" value="围墙" />
+		<classes>
+			<class name="testng.wyController">
+				<methods>
+					<include name="systemLogin"/>
+				    <include name="communityAction"/> 
+  				    <include name="residentAction"/>
+					<include name="propertyNoteAction"/> 	
+					<include name="propertyDMAction"/>
+				    <include name="equipmentAction"/>
+				    <include name="cardTypeAction"/>
+				    <include name="cardHouseAction"/>				    	    							
+                    <include name="cardPublicAction" />					
+ 					<include name="blackListAction" /> 
+					<include name="expireCardAction"/>	 					
+					<include name="deleteAction"/>	  
+				</methods> 
+			</class>
+		</classes>
+	</test>
+	<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+<!--         <listener class-name="com.lz.libarary.utils.RepeatListener" />
+        <listener class-name="com.lz.libarary.utils.RetryListener" /> -->
+    </listeners>
+    <usedefaultlisteners name="false" />
+</suite>
